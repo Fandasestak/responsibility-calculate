@@ -1,0 +1,126 @@
+* {
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin:4px;
+    border:none;
+}
+.h5 {
+    color:grey;
+    margin-bottom: 50px;
+}
+ 
+ 
+/* přihlášení  */
+.logIn {
+    border: 2px dotted navy;
+    padding: 9px;
+}
+ 
+.logIn ::placeholder {
+    color:navy;
+}
+.email {
+    margin-bottom: 15px;
+}
+ 
+.email, .password, .confirmPassword {
+    padding: 3px;
+    border-right:none;
+    border-left: none;
+    outline-color: grey;
+}
+.password, .confirmPassword {
+    margin-bottom:0rem;
+}
+.confirmPassword {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+ 
+.email:hover, .password:hover, .confirmPassword:hover {
+    padding: 3px;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+ 
+ 
+ /* main přihlášení button  */
+.logIn button {
+    margin:25px;
+}
+/* hover it  */
+.logIn button:hover {
+   
+}
+ 
+ 
+/*  */
+
+/* kalkulačka  */
+.allKalkulacka {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    color:navy;
+    background: grey;
+    outline:none;
+    border:none;
+    box-shadow: 0 5px 10px black;
+}
+.display {
+    height: 80px;
+    width: 95%;
+    outline:none;
+    border: 2px dotted navy;
+    border-radius: 5px;
+    color:navy;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    cursor: no-drop;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    border:2px solid navy;
+    border-radius: 5px;
+    margin:5px;
+    padding: 5px;
+}
+.buttons button {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid navy;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #e9eb6a, #ffc27f, #ffaaaa, #d1a5bf, #a29fad);
+    color:navy;
+    cursor: pointer;
+}
+.buttons button:hover {
+    color:grey;
+    background-color: navy;
+    border:none;
+    box-shadow: 2px 2px 5px 2px;
+    transition:550ms;
+}
+.buttons button:active {
+    transform: scale(0.99);
+}

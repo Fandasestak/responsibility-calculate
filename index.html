@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="regkalkulacka.css">
+    <script src="regkalkulacka.js"></script>
+</head>
+<body>
+ 
+  <!-- responsibility uvitací stranky  -->
+  <div class="responsibiltyOfLog">
+ 
+ 
+  <!-- uvítání, vysvětlení -->
+  <div class="welcomeText">
+    <h1 style="color:navy">Vítej na naší stránce</h1>
+    <h5 class="h5">( Pro užití kalkulačky se přihlaš )</h5>
+  </div>
+ 
+  <!-- přihlášení -->
+  <div class="logIn">
+    <input type="email" placeholder="e-mail" class="email">
+    <input type="password" placeholder="password" class="password">
+    <input type="password" placeholder="confirm password" class="confirmPassword">
+    <button class="addCalculate" onclick="addCalculate()">přihlášení</button>
+  </div>
+<!--  -->
+</div>
+ 
+ 
+<!-- konec -->
+ 
+ 
+ 
+ 
+ 
+<!-- resposibilty kalkulačka  -->
+<div class="allKalkulacka">
+
+<div class="container">
+    <input type="number" class="display" disabled>
+
+    <div class="buttons">
+        <button data-value="AC" class="operator">AC</button>
+        <button data-value="DEL" class="operator">DEL</button> 
+        <button data-value="%" class="operator">%</button>
+        <button data-value="/" class="operator">/</button>
+
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="*" class="operator">*</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="-" class="operator">-</button>
+
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="+" class="operator">+</button>
+
+        <button data-value="0">0</button>
+        <button data-value="00">00</button>
+        <button data-value=".">.</button>
+        <button data-value="=" class="operator">=</button>
+
+
+    </div>
+</div>
+</div>
+<!--  -->
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>
